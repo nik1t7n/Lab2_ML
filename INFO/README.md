@@ -21,9 +21,9 @@ As you can see, I have repositories, services and routers for each individual pa
 Diving deeper into the code, there is a `dependencies.py` file where I take all of my dependencies (obviously), such as, StoreRepository and StoreService etc. This file is aimed to be a <u>centralized storage</u> of all functions that I need to load any of dependencies.
 
 #### Tech Stack:
-:snake: Python FastAPI
-💾 SQlite3
-:brain: My skills
+:snake: Python FastAPI <br>
+💾 SQlite3 <br>
+🧠 My skills <br>
 
 ---
 ## Frontend
@@ -47,9 +47,9 @@ Of course it is very cool and interesting, but I think it is better to let the p
 ![Описание изображения](imgs/analytics.png)
 
 #### Tech Stack: 
-⚙️ React Typescript
-🎨 Tailwindcss
-:robot: ChatGPT
+⚙️ React Typescript <br>
+🎨 Tailwindcss <br>
+🤖 ChatGPT <br>
 
 ---
 
