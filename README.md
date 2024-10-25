@@ -4,7 +4,7 @@ This is my implementation of the second laboratory work.
 ## Backend
 I have decided to implement a little bit heavy architecture for this project, but it is also very scalable. I divided it in this way:
 
-![Backend Architecture using PlantUML diagram](imgs/plantuml/backend_architecture.svg)
+![Backend Architecture using PlantUML diagram](INFO/imgs/plantuml/backend_architecture.svg)
 
 So, this architecture divides responsibilities on three different levels, which allows to to independently develop and test each of them. 
 
@@ -30,21 +30,21 @@ Diving deeper into the code, there is a `dependencies.py` file where I take all 
 
 In general, there are *4 pages* in the frontend:
 
-![Frontend Pages using PlantUML diagram](imgs/plantuml/frontend_pages.svg)
+![Frontend Pages using PlantUML diagram](INFO/imgs/plantuml/frontend_pages.svg)
 
 Of course it is very cool and interesting, but I think it is better to let the pictures speak for themselves here:
 
 **Landing Page**:
-![Описание изображения](imgs/main.png)
+![Описание изображения](INFO/imgs/main.png)
 
 **Stores Page**:
-![Описание изображения](imgs/stores.png)
+![Описание изображения](INFO/imgs/stores.png)
 
 **Products Page**:
-![Описание изображения](imgs/products.png)
+![Описание изображения](INFO/imgs/products.png)
 
 **Analytics Page**:
-![Описание изображения](imgs/analytics.png)
+![Описание изображения](INFO/imgs/analytics.png)
 
 #### Tech Stack: 
 ⚙️ React Typescript <br>
