@@ -3,18 +3,9 @@ This is my implementation of the second laboratory work.
 
 ## Backend
 I have decided to implement a little bit heavy architecture for this project, but it is also very scalable. I divided it in this way:
-```plantuml
-@startuml
-rectangle "Routes" as routes
-rectangle "Service" as service
-rectangle "Repository" as repository
-database "Database" as database
 
-routes --> service
-service --> repository
-repository --> database
-@enduml
-```
+![Backend Architecture using PlantUML diagram](imgs/plantuml/backend_architecture.svg)
+
 So, this architecture divides responsibilities on three different levels, which allows to to independently develop and test each of them. 
 
 Let's go through *some definitions*:
@@ -39,23 +30,8 @@ Diving deeper into the code, there is a `dependencies.py` file where I take all 
 
 In general, there are *4 pages* in the frontend:
 
-```plantuml
-@startuml
-skinparam Rectangle {
-  RoundedCorner 20
-}
+![Frontend Pages using PlantUML diagram](imgs/plantuml/frontend_pages.svg)
 
-rectangle "Stores" as stores
-rectangle "Products" as products
-rectangle "Analytics" as analytics
-rectangle "Landing" as landing
-
-landing <--> products
-landing <--> stores
-landing <--> analytics
-
-@enduml
-```
 Of course it is very cool and interesting, but I think it is better to let the pictures speak for themselves here:
 
 **Landing Page**:
